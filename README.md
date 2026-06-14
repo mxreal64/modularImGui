@@ -21,8 +21,8 @@ traditional dear imgui forces absolute macro garbage and header clutter into you
 import modularImGui;
 
 int main() {
-    ImGui::createcontext();
-    ImGui::backend::imgui_impl_glfw_initforopengl(window, true);
+    ImGui::CreateContext();
+    ImGui::Backend::ImGui_Impl_Glfw_InitForOpenGL(window, true);
     // 0% macro leakage. zero abstraction penalty.
 }
 ```
