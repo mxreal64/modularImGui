@@ -37,7 +37,12 @@ cd modularImGui
 
 2. grab dependencies:
 ```bash
-sudo pacman -s glfw-x11
+sudo pacman -s glfw-x11 # on arch
+sudo apt install libglfw3-dev libgl1-mesa-dev # on ubuntu/debian-based
+sudo dnf install glfw-devel mesa-libGL-devel # on fedora-based
+# on any other distro just figure it out urself idc
+
+git clone https://github.com/ocornut/imgui.git 
 ```
 
 3. screw bloated build systems. just run the bare-metal shell script:
