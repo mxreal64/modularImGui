@@ -28,4 +28,4 @@ g++ $FLAGS -c modernImGui.cppm -o build/modularImGui.o
 echo " Step 3: Packing everything into a clean static library..."
 ar rcs build/modularImGui.a build/*.o
 
-echo " Success! Your pure GCC-built library is at build/libmodernImGui.a"
+echo " Success! Your pure GCC-built library is at build/modularImGui.a"
