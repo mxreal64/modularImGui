@@ -60,4 +60,4 @@ g++ -std=c++26 -fmodules-ts main.cpp build/libmodularImGui.a -lglfw -lgl -o app
 
 copyright mxreal64, 2026
 
-licensed under GNU GPLv3, more info at <https://gnu.org>
+licensed under GNU GPLv3, more info at <https://gnu.org/licenses>
