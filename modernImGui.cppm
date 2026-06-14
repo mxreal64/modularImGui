@@ -116,6 +116,16 @@ export namespace ImGui {
     using ::ImGui::OpenPopup;
     using ::ImGui::BeginPopup;
     using ::ImGui::EndPopup;
+
+    // ------------------------------------------------------------------------
+    // 11. CONFIGURATION FLAGS (CLEAN NAMESPACE MAPPING)
+    // ------------------------------------------------------------------------
+    using WindowFlags = ::ImGuiWindowFlags;
+    using ::ImGuiWindowFlags_None;
+    using ::ImGuiWindowFlags_NoTitleBar;
+    using ::ImGuiWindowFlags_NoMove;
+    using ::ImGuiWindowFlags_NoResize;
+    using ::ImGuiWindowFlags_NoScrollbar;
 }
 
 // 3. MANUAL BACKEND EXPORTS
@@ -128,4 +138,14 @@ export namespace ImGui::Backend {
     using ::ImGui_ImplOpenGL3_NewFrame;
     using ::ImGui_ImplOpenGL3_RenderDrawData;
     using ::ImGui_ImplOpenGL3_Shutdown;
+}
+
+// 4. CORE STRUCTS & TYPES
+export {
+    using ::ImVec2;
+    using ::ImVec4;
+    using ::ImGuiID;
+    using ::ImTextureID;
+    using ImGuiTableColumnIdx = short;
+    using ImGuiTableDrawChannelIdx = unsigned char;
 }
