@@ -1,8 +1,8 @@
 # modularImGui 
 
-a zero-overhead c++26 named module gateway for **dear imgui**. it does a brutal macroexorcism on toxic preprocessor pollution, stops global namespace leaks, and forces explicit symbol serialization. 
+a zero-overhead c++26 named module gateway for **dear imgui**. it stops global namespace leaks, and forces explicit symbol serialization. 
 
-built for systems engineers who want pure modern c++ with zero-magic build scripts.
+built for ppl who want pure modern c++ with zero-magic build scripts.
 
 ## why
 traditional dear imgui forces absolute macro garbage and header clutter into your clean code. this repo acts as a strict compilation firewall, giving you faster incremental rebuilds and a pristine global namespace.
